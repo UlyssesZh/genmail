@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=">
+	{% if page.math %}
+		{% include katex_style.html %}
+	{% endif %}
+</head>
+
+<body>
+{{ content }}
+{% if page.quote %}
+	{% include quote.html %}
+{% endif %}
+</body>
+
+</html>

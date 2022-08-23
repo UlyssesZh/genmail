@@ -1,0 +1,9 @@
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFMKatex
+  math_engine: katex
+  math_engine_opts:
+    output: html
+  syntax_highlighter_opts:
+    inline_theme: pastie
